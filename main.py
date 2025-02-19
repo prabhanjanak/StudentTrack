@@ -5,7 +5,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Load YOLOv8 model
-model_path = "F:\Resolute_Ai\Internship\Exam\model.pt"  # Update with your trained YOLOv8 model path
+model_path = "best.pt"  # Update with your trained YOLOv8 model path
 model = YOLO(model_path)
 
 # Streamlit UI
